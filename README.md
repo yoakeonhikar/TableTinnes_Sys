@@ -1,9 +1,17 @@
 # TableTinnes_Sys
+
 ## 1 Service搭建
+
 ### 1.1 环境配置
+
 #### 1.1.1 安装包准备
+
 #### 1.安装`jdk`
+
+
 #### 2.安装`maven`
+
+
 
 #### 1.1.2 配置环境变量
 
@@ -102,3 +110,25 @@ mvn -v
 
 ![Create_01](././A_images/Creat/Creat_01.png)
 
+
+**选择项**
+
+1. `SpringBoot`版本
+
+2. 项目开发语言
+
+3. 设置包名
+
+4. 设置项目名
+
+5. `jdk`版本
+
+6. 依赖配置（通过Enter进行 选择/取消）
+
+
+### 1.3 修改配置文件
+
+`application.properties`修改为`application.ymal`
+
+
+### 1.4 通过`pom.xml`添加依赖
